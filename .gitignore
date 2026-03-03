@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Environment
+data/*.csv
+.venv/
+env/
+.ipynb_checkpoints/
+.streamlit/
