@@ -1,6 +1,7 @@
 name: credit_curve_env
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - numpy
@@ -9,3 +10,9 @@ dependencies:
   - matplotlib
   - pymc
   - arviz
+  - jupyter
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      - streamlit

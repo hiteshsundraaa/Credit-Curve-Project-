@@ -1,11 +1,7 @@
-# Python
+*.png
+data/
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Data & Environment
-data/*.csv
-.venv/
-env/
+*.pyc
 .ipynb_checkpoints/
-.streamlit/
+.DS_Store
+notebooks/.DS_Store
